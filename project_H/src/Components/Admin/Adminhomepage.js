@@ -182,7 +182,9 @@
 import React, { useState } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
- import Card from 'react-bootstrap/Card';
+import Card from 'react-bootstrap/Card';
+import  sales from '../../Assets/images.jpg'; 
+import logo from '../../Assets/Logo.png';
  
  function Adminhomepage() {
 
@@ -230,32 +232,74 @@ import 'react-datepicker/dist/react-datepicker.css';
        <div className='col-lg-3  col-md-6 col-sm-12  '>
        
 
-          <Card   >
+       <Card  style={{Border:'none'}}>
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-              <Card.Text>
+              <img src={sales} alt={sales} className='img-fluid'  style={{height:'90px',width:'150px'}} />
+
+
+
+              <div className='container'>
+                <div className='row'>
+                  <div className='col-7'>
+                   <Card.Title>Total Sales</Card.Title>
+                   <Card.Title>$25,789</Card.Title>
+                   <Card.Subtitle className="mb-2 text-muted">Last 24 hours</Card.Subtitle>
+
+                  </div>
+                  <div className='col-5 mt-4'>
+
+                  <img src={logo} alt={sales} className='img-fluid'/>
+                    
+                  </div>
+
+                </div>
+               </div>
+              {/* <Card.Title>Total Sales</Card.Title>
+              <Card.Title>$25,789</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">Last 24 hours</Card.Subtitle> */}
+              {/* <Card.Text>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </Card.Text>
               <Card.Link href="#">Card Link</Card.Link>
-              <Card.Link href="#">Another Link</Card.Link>
+              <Card.Link href="#">Another Link</Card.Link> */}
             </Card.Body>
           </Card>
         </div>
 
         <div className='col-lg-3  col-md-6 col-sm-12'>
 
-        <Card  >
+        <Card  style={{Border:'none'}}>
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-              <Card.Text>
+              <img src={sales} alt={sales} className='img-fluid'  style={{height:'90px',width:'150px'}} />
+
+
+
+              <div className='container'>
+                <div className='row'>
+                  <div className='col-7'>
+                   <Card.Title>Total Sales</Card.Title>
+                   <Card.Title>$25,789</Card.Title>
+                   <Card.Subtitle className="mb-2 text-muted">Last 24 hours</Card.Subtitle>
+
+                  </div>
+                  <div className='col-5 mt-4'>
+
+                  <img src={logo} alt={sales} className='img-fluid'/>
+                    
+                  </div>
+
+                </div>
+               </div>
+              {/* <Card.Title>Total Sales</Card.Title>
+              <Card.Title>$25,789</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">Last 24 hours</Card.Subtitle> */}
+              {/* <Card.Text>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </Card.Text>
               <Card.Link href="#">Card Link</Card.Link>
-              <Card.Link href="#">Another Link</Card.Link>
+              <Card.Link href="#">Another Link</Card.Link> */}
             </Card.Body>
           </Card>
         
@@ -263,35 +307,77 @@ import 'react-datepicker/dist/react-datepicker.css';
 
 
         <div className='col-lg-3 col-md-6 col-sm-12 '>
-           <Card  >
+        <Card  style={{Border:'none'}}>
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-              <Card.Text>
+              <img src={sales} alt={sales} className='img-fluid'  style={{height:'90px',width:'150px'}} />
+
+
+
+              <div className='container'>
+                <div className='row'>
+                  <div className='col-7'>
+                   <Card.Title>Total Sales</Card.Title>
+                   <Card.Title>$25,789</Card.Title>
+                   <Card.Subtitle className="mb-2 text-muted">Last 24 hours</Card.Subtitle>
+
+                  </div>
+                  <div className='col-5 mt-4'>
+
+                  <img src={logo} alt={sales} className='img-fluid'/>
+                    
+                  </div>
+
+                </div>
+               </div>
+              {/* <Card.Title>Total Sales</Card.Title>
+              <Card.Title>$25,789</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">Last 24 hours</Card.Subtitle> */}
+              {/* <Card.Text>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </Card.Text>
               <Card.Link href="#">Card Link</Card.Link>
-              <Card.Link href="#">Another Link</Card.Link>
+              <Card.Link href="#">Another Link</Card.Link> */}
             </Card.Body>
-           </Card>
+          </Card>
         </div>
 
 
 
         <div className='col-lg-3 col-md-6 col-sm-12 '>
-            <Card>
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                  </Card.Text>
-                  <Card.Link href="#">Card Link</Card.Link>
-                  <Card.Link href="#">Another Link</Card.Link>
-                </Card.Body>
-            </Card>
+        <Card  style={{Border:'none'}}>
+            <Card.Body>
+              <img src={sales} alt={sales} className='img-fluid'  style={{height:'90px',width:'150px'}} />
+
+
+
+              <div className='container'>
+                <div className='row'>
+                  <div className='col-7'>
+                   <Card.Title>Total Sales</Card.Title>
+                   <Card.Title>$25,789</Card.Title>
+                   <Card.Subtitle className="mb-2 text-muted">Last 24 hours</Card.Subtitle>
+
+                  </div>
+                  <div className='col-5 mt-4'>
+
+                  <img src={logo} alt={sales} className='img-fluid'/>
+                    
+                  </div>
+
+                </div>
+               </div>
+              {/* <Card.Title>Total Sales</Card.Title>
+              <Card.Title>$25,789</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">Last 24 hours</Card.Subtitle> */}
+              {/* <Card.Text>
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </Card.Text>
+              <Card.Link href="#">Card Link</Card.Link>
+              <Card.Link href="#">Another Link</Card.Link> */}
+            </Card.Body>
+          </Card>
         </div>
         </div>
        </div>
@@ -323,32 +409,74 @@ import 'react-datepicker/dist/react-datepicker.css';
 
 
        <div className='col-lg-9  col-md-6 col-sm-12'>
-          <Card  >
+         <Card  style={{Border:'none'}}>
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-              <Card.Text>
+              <img src={sales} alt={sales} className='img-fluid'  style={{height:'90px',width:'150px'}} />
+
+
+
+              <div className='container'>
+                <div className='row'>
+                  <div className='col-7'>
+                   <Card.Title>Total Sales</Card.Title>
+                   <Card.Title>$25,789</Card.Title>
+                   <Card.Subtitle className="mb-2 text-muted">Last 24 hours</Card.Subtitle>
+
+                  </div>
+                  <div className='col-5 mt-4'>
+
+                  <img src={logo} alt={sales} className='img-fluid'/>
+                    
+                  </div>
+
+                </div>
+               </div>
+              {/* <Card.Title>Total Sales</Card.Title>
+              <Card.Title>$25,789</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">Last 24 hours</Card.Subtitle> */}
+              {/* <Card.Text>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </Card.Text>
               <Card.Link href="#">Card Link</Card.Link>
-              <Card.Link href="#">Another Link</Card.Link>
+              <Card.Link href="#">Another Link</Card.Link> */}
             </Card.Body>
           </Card>
         </div>
 
         <div className='col-lg-3  col-md-6 col-sm-12'>
 
-        <Card  >
+        <Card  style={{Border:'none'}}>
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-              <Card.Text>
+              <img src={sales} alt={sales} className='img-fluid'  style={{height:'90px',width:'150px'}} />
+
+
+
+              <div className='container'>
+                <div className='row'>
+                  <div className='col-7'>
+                   <Card.Title>Total Sales</Card.Title>
+                   <Card.Title>$25,789</Card.Title>
+                   <Card.Subtitle className="mb-2 text-muted">Last 24 hours</Card.Subtitle>
+
+                  </div>
+                  <div className='col-5 mt-4'>
+
+                  <img src={logo} alt={sales} className='img-fluid'/>
+                    
+                  </div>
+
+                </div>
+               </div>
+              {/* <Card.Title>Total Sales</Card.Title>
+              <Card.Title>$25,789</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">Last 24 hours</Card.Subtitle> */}
+              {/* <Card.Text>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </Card.Text>
               <Card.Link href="#">Card Link</Card.Link>
-              <Card.Link href="#">Another Link</Card.Link>
+              <Card.Link href="#">Another Link</Card.Link> */}
             </Card.Body>
           </Card>
         
