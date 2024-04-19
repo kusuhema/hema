@@ -39,3 +39,114 @@
 
 /* ------------------------------------------------------------------------------ */
 
+
+
+.login_second_section {
+  background-color: #F9F7F0;
+  /* background: #F9F7F0; */
+}
+
+
+
+.emailinputfield {
+  width: 100%;
+  max-width: 300px;
+  /* border: none;  */
+  border-radius: 5px;
+  border: 1px solid rgb(54, 53, 53) !important;
+  height: 50% !important;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .emailinputfield {
+    max-width: none;
+    border: none;
+  }
+}
+
+
+
+
+.remember {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--1st-text, #4A4543);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.remember1 {
+  color: #509264;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.signup {
+  color: #509264;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+
+.welcome {
+  color: var(--1st-text, #4A4543);
+  font-family: Roboto;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.enteryourdetails {
+  color: var(--2nd-text, #808080);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.16px;
+}
+
+
+.email {
+  color: var(--1st-text, #4A4543);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+.password {
+  color: var(--1st-text, #4A4543);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+
+.signwithgoogle {
+  color: var(--1st-text, #4A4543);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+
