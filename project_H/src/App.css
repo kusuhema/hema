@@ -3,12 +3,38 @@
 
 /* ------------------------------------------------------------------------------ */
 
+*{
+  padding-left: 0;
+  margin-left: 0;
+}
 
+.app-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 400px;
+  height: 800px;
+  background-color:  blue;
+  color: #fff;
+}
+
+.content {
+  flex: 1;
+ 
+}
+
+ul {
+  list-style-type: none;
+  
+}
+
+ 
 
 .login_second_section {
   background-color: #F9F7F0;
   /* background: #F9F7F0; */
-}
+/* }
 
 
 
@@ -119,6 +145,4 @@
   border: 1px solid #ddd;  
   background-color: #fff;  
   border-radius: 8px;  
-}
-
-
+}   

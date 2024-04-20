@@ -19,6 +19,7 @@
     "bootstrap": "^5.3.3",
     "date-fns": "^3.6.0",
     "material-ui-popup-state": "^5.1.0",
+    "mdb-react-ui-kit": "^8.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",
     "react-calendar": "^4.8.0",

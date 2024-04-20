@@ -190,6 +190,14 @@ import logo from '../../Assets/Logo.png';
 
 
   
+    const [isOpen, setIsOpen] = useState(false);
+  
+    const toggleSidebar = () => {
+      setIsOpen(!isOpen);
+    };
+
+
+  
   const [selectedDate, setSelectedDate] = useState(null);
 
 
@@ -205,6 +213,36 @@ import logo from '../../Assets/Logo.png';
         dateFormat="MM/dd/yyyy"
         placeholderText="Select a date"
       /> */}
+
+      <div className='container-fluid'>
+        <div className='row'>
+          <div className='col-4'>
+
+        
+
+<div className="app-container">
+      <div className="sidebar">
+        <h2>Sidebar</h2>
+        <ul>
+          <li>Link 1</li>
+          <li>Link 2</li>
+          <li>Link 3</li>
+          {/* Add more links as needed */}
+        </ul>
+      </div>
+      <div className="content">
+         
+        {/* Your main content goes here */}
+      </div>
+    </div>
+
+    </div>
+
+
+
+    <div className='col-8'> 
+
+
        <div className='container'>
        <div className='row my-5'>
 
@@ -227,7 +265,7 @@ import logo from '../../Assets/Logo.png';
       /> */}
       <h5>Recent Updates</h5>
         </div>
-
+  
 
        <div className='col-lg-3  col-md-6 col-sm-12  '>
        
@@ -490,6 +528,15 @@ import logo from '../../Assets/Logo.png';
          
         </div>
        </div>
+
+
+
+
+       </div>
+        </div>
+      </div>
+
+      
 
       
       
